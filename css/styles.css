@@ -827,18 +827,19 @@ body {
 @media (max-width: 768px) {
     .navbar .container {
         position: relative;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .hamburger {
         display: flex;
-        position: absolute;
-        left: 1rem;
         z-index: 1001;
     }
 
     .nav-brand {
-        flex: 1;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .nav-menu {
