@@ -1,5 +1,5 @@
 // Language switcher functionality for Dafiwi website
-// Supports English (US) and Spanish (Colombian)
+// Supports English (US) and Spanish
 
 (function() {
     'use strict';
@@ -69,6 +69,12 @@
                 element.textContent = esText;
             }
         });
+        
+        // Update language label (show opposite language)
+        const langLabel = document.querySelector('.lang-label');
+        if (langLabel) {
+            langLabel.textContent = lang === 'en' ? 'Idioma' : 'Language';
+        }
     }
 
     function updateButtonStates(lang) {

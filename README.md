@@ -1,12 +1,14 @@
-# Dafiwi - Colombian Island Delivery Service
+# Dafiwi - Island Delivery Service
 
-A static website for Dafiwi, a delivery service company that connects the Colombian islands of San Andrés, Providencia, and Santa Catalina with the mainland.
+A static website for Dafiwi, a delivery service company that connects the islands of San Andrés, Providencia, and Santa Catalina with the mainland.
 
 ## Features
 
 - 🌐 **Bilingual Support**: Toggle between English and Spanish with flag icons
 - 📱 **Responsive Design**: Mobile-friendly and works on all devices
-- 🏝️ **Island-Focused**: Tailored for the unique needs of Colombian island delivery
+- 🌐 **Bilingual**: Full support for English and Spanish
+- ️ **Island-Focused**: Tailored for the unique needs of island delivery
+- 📱 **Responsive**: Optimized for all devices
 - ⚡ **Fast & Static**: No server-side processing required
 - 🚀 **GitHub Pages Ready**: Fully compatible with GitHub Pages hosting
 
@@ -32,9 +34,12 @@ dafiwi/
 
 ## Language Toggle
 
-The website includes a language switcher that allows users to toggle between:
+
+The website supports two languages:
 - 🇺🇸 English (US)
-- 🇨🇴 Spanish (Colombian)
+- �� Spanish
+
+Users can switch between languages using the language toggle in the header.
 
 Language preference is saved in the browser's localStorage, so users' language choice persists across visits.
 
